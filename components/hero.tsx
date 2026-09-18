@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -22,6 +23,15 @@ export default function Hero() {
           Explore Our Projects
           <span aria-hidden>→</span>
         </Link>
+        </div>
+        <div className="relative w-full h-[400px] md:h-full">
+            <Image 
+            src="/images/hero.jpg"
+            alt="Architecture project"
+            fill
+            className="object-cover"
+            priority
+            />
         </div>
     </section>
     
