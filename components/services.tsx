@@ -1,6 +1,3 @@
-// components/services.tsx
-import { Fragment } from "react";
-
 interface Service {
   index: string;
   title: string;
@@ -40,7 +37,7 @@ export default function Services() {
       <div className="mx-auto max-w-[1440px]">
 
         {/* Section Header */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" id="services-section">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.12em]">
             <span className="h-1.5 w-1.5 rounded-full bg-black" />
             <span>Services</span>
@@ -51,21 +48,24 @@ export default function Services() {
           </span>
         </div>
 
-        {/* Divider */}
         <div className="mt-4 border-t border-black" />
 
-        {/* Heading Row */}
-        <div className="mt-12 flex flex-col gap-4 md:mt-16 md:flex-row md:items-end md:justify-between">
-          <h2 className="font-serif text-3xl leading-[1.15] tracking-[-0.02em] md:text-4xl lg:text-5xl">
-            What We Do
-          </h2>
+        <div className="mt-12 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-12 md:gap-8">
+          <div className="md:col-span-5">
+            <h2 className="max-w-xl font-serif text-4xl leading-[1.1] tracking-[-0.02em] md:text-5xl lg:text-6xl">
+              Our Services
+            </h2>
+          </div>
 
-          <p className="font-serif text-lg text-neutral-600 md:mb-1 md:max-w-xs">
-            From ideas to built spaces.
-          </p>
+          <div className="md:col-span-5 md:col-start-8">
+            <p className="max-w-md text-sm leading-6 text-neutral-600 md:text-base">
+              From architectural design to construction and engineering,
+              we bring together creative thinking and technical precision
+              to create spaces with purpose.
+            </p>
+          </div>
         </div>
 
-        {/* Cards */}
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 md:mt-16">
           {services.map((service) => (
             <div

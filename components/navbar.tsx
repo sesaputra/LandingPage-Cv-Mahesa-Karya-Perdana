@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Services", href: "/services" },
-  { name: "Projects", href: "?projects" },
-  { name: "Contact", href: "/contact" },
+  { name: "About", href: "#about-section" },
+  { name: "Services", href: "#services-section" },
+  { name: "Projects", href: "#projects-section" },
+  { name: "Contact", href: "#contact-section" },
 ];
 
 export default function Navbar() {

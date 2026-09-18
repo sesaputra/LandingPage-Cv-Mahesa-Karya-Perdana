@@ -7,7 +7,7 @@ export default function About() {
       <div className="mx-auto max-w-[1440px]">
 
         {/* Section Header */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between" id="about-section">
           <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.12em]">
             <span className="h-1.5 w-1.5 rounded-full bg-black" />
 
