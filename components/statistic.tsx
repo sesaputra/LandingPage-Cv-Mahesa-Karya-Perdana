@@ -42,17 +42,20 @@ export default function Statistic() {
           </p>
 
           <Link
-            href="/contact"
-            className="group mt-10 inline-flex w-fit items-center gap-3 border border-black px-5 py-3 text-xs font-semibold uppercase tracking-[0.08em] transition-colors duration-300 hover:bg-black hover:text-white"
-          >
-            <span>Start a Conversation</span>
-            <span
-              aria-hidden="true"
-              className="transition-transform duration-300 group-hover:translate-x-1"
+          href="https://wa.me/6281234567890"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group mt-10 inline-flex w-fit items-center gap-3 border border-black px-5 py-3 text-xs font-semibold uppercase tracking-[0.08em] transition-colors duration-300 hover:bg-black hover:text-white"
             >
-              →
-            </span>
-          </Link>
+          <span>Start a Conversation</span>
+
+         <span
+         aria-hidden="true"
+         className="transition-transform duration-300 group-hover:translate-x-1"
+       >
+       →
+      </span>
+      </Link>
         </div>
 
       </div>

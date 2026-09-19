@@ -17,7 +17,7 @@ const projects: Project[] = [
     category: "Residential",
     location: "Bali",
     year: "2025",
-    image: "/images/hero.jpg",
+    image: "/images/projects.jpg",
   },
   {
     index: "02",
@@ -25,7 +25,7 @@ const projects: Project[] = [
     category: "Commercial",
     location: "Bali",
     year: "2024",
-    image: "/images/hero.jpg",
+    image: "/images/projects-1.jpg",
   },
   {
     index: "03",
@@ -33,7 +33,7 @@ const projects: Project[] = [
     category: "Residential",
     location: "Bali",
     year: "2024",
-    image: "/images/hero.jpg",
+    image: "/images/projects-2.jpg",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function Projects() {
         <div className="mt-12 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-12 md:gap-8">
           <div className="md:col-span-6 lg:col-span-5">
             <h2 className="font-serif text-4xl leading-[1.1] tracking-[-0.02em] md:text-5xl lg:text-6xl">
-              Selected Projects
+              Selected <span className="text-neutral-400">Projects</span>
             </h2>
           </div>
 

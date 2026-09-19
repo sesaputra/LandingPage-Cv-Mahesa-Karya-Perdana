@@ -53,7 +53,7 @@ export default function Services() {
         <div className="mt-12 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-12 md:gap-8">
           <div className="md:col-span-5">
             <h2 className="max-w-xl font-serif text-4xl leading-[1.1] tracking-[-0.02em] md:text-5xl lg:text-6xl">
-              Our Services
+              Our <span className="italic">Services</span>
             </h2>
           </div>
 

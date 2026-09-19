@@ -101,7 +101,7 @@ export default function About() {
 
             <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-200">
               <Image
-                src="/images/hero.jpg"
+                src="/images/projects.jpg"
                 alt="Architecture project by Mahesa Karya Perdana"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-[1.02]"

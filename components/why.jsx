@@ -49,9 +49,9 @@ export default function WhyWorkWithUs() {
         <div className="mt-12 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-12 md:gap-8">
           <div className="md:col-span-6 lg:col-span-5">
             <h2 className="max-w-xl font-serif text-4xl leading-[1.1] tracking-[-0.02em] md:text-5xl lg:text-6xl">
-              Built on
+              Built <span className="text-neutral-400">on</span>
               <br />
-              thoughtful work.
+              thoughtful <span className="italic">work.</span>
             </h2>
           </div>
 

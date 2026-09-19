@@ -19,7 +19,7 @@ export default function Hero() {
         </h1>
 
         <div className="mt-6 max-w-md">
-          <p className="text-sm font-medium leading-6 text-neutral-700 md:text-base">
+          <p className="italic text-sm font-medium leading-6 text-neutral-700 md:text-base">
             Designing spaces that matter.
           </p>
           <p className="mt-3 max-w-sm text-sm leading-6 text-neutral-500">
@@ -49,7 +49,7 @@ export default function Hero() {
       {/* Hero Image */}
       <div className="relative h-[420px] w-full md:h-[560px] lg:h-[640px]">
         <Image
-          src="/images/hero.jpg"
+          src="/images/projects.jpg"
           alt="Architecture project by Mahesa Karya Perdana"
           fill
           priority
